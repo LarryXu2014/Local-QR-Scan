@@ -16,7 +16,6 @@ This repository is **Chrome extension only**. It contains only the files needed 
 - [Packaging for GitHub](#packaging-for-github)
 - [Tech Stack](#tech-stack)
 - [Privacy](#privacy)
-- [License](#license)
 
 ## Download
 
@@ -60,7 +59,7 @@ Then install it in Chrome using Developer Mode.
 3. `jsQR.js` reads the QR code from image pixels.
 4. If the decoded result is a URL, the extension can open it in a browser tab.
 5. No decoded QR content is sent to a server by this project.
-
+6. press command/control + shit + Y for screen capture for the QR.
 ## Chrome Support
 
 | Platform | Status |
