@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Scan & Open</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="icons/icon48.png" alt="Logo" class="logo" />
+    <div>
+      <h1>QR Scan &amp; Open</h1>
+      <p class="subtitle">Right-click or press the shortcut to scan</p>
+    </div>
+  </div>
+
+  <div id="content">
+    <div class="shortcut-info">
+      <div class="shortcut-row">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h.01M12 12h.01M16 12h.01M7 16h10"/></svg>
+        <span>Press <kbd id="shortcut-key">Ctrl+Shift+Y</kbd> or click</span>
+      </div>
+      <button id="scan-btn" class="btn-primary">Select Area to Scan</button>
+    </div>
+
+    <div id="history-section">
+      <div class="section-header">
+        <h2>Recent Scans</h2>
+        <button id="clear-btn" class="btn-text" title="Clear history">Clear</button>
+      </div>
+      <div id="history-list" class="history-list">
+        <p class="empty-state">No scans yet. Right-click a QR code or press the shortcut to get started.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="tip">
+        <strong>Tip:</strong> Press the shortcut or click the button above to select any QR code area on your screen. On mobile? Use the web app to scan with your camera.
+      </p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
