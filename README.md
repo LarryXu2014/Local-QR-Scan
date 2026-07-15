@@ -21,7 +21,7 @@ This repository is **Chrome extension only**. It contains only the files needed 
 
 ### Chrome Extension
 
-If you are using this from GitHub, download this repository or download the file qr scan open chrome github.
+If you are using this from GitHub, download this repository or the ZIP file.
 
 Then install it in Chrome using Developer Mode.
 
