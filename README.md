@@ -21,9 +21,7 @@ This repository is **Chrome extension only**. It contains only the files needed 
 
 ### Chrome Extension
 
-If you are using this from GitHub, download this repository or download the release ZIP:
-
-- `qr-scan-open-chrome-extension.zip`
+If you are using this from GitHub, download this repository or download the file qr scan open chrome github.
 
 Then install it in Chrome using Developer Mode.
 
