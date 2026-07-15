@@ -104,5 +104,21 @@ For a normal GitHub repo upload, you can also upload the files directly instead 
 
 ## Privacy
 
-QR decoding happens locally in Chrome. This project does not require a server and does not intentionally upload decoded QR content anywhere.
+QR decoding happens locally in Chrome. This project does not require a server and does not intentionally upload decoded QR content anywhere.Privacy Policy
+QR Scan & Open is designed to decode QR codes locally in Chrome.
+
+Data collection
+This extension does not intentionally collect, sell, or share personal data.
+
+QR code content
+QR decoding happens locally in the browser using the included JavaScript decoder. Decoded QR text is not sent to a project-owned server.
+
+Permissions
+The extension uses Chrome extension permissions required for QR scanning actions, such as reading selected image data or opening decoded links in a tab.
+
+Third parties
+This project does not include analytics or advertising scripts on this GitHub Pages site.
+
+Contact
+For support, open an issue in the GitHub repository.
 
